@@ -1,0 +1,692 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+</head>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+
+
+
+<body><!-- Pag1 -->
+<div data-role="page" id="inicio">
+    <div data-theme="a" data-role="header">
+        <h3>
+            Conozcamos Bogotá D.C
+        </h3>
+    </div>
+    
+    
+    <div data-role="content">
+        <div id="Turismo" data-role="collapsible-set" data-theme="a" data-content-theme="a">
+            <div data-role="collapsible">
+                <h3>
+                    Historico
+                </h3>
+                
+         <div data-role="collapsible-set" data-inset="">
+    <div data-role="collapsible">
+        <h3>Museo</h3>
+        <ul data-role="listview" data-inset="">
+            <li><a href="#mapamuseoro">Museo del oro</a></li>
+     <li><a href="#mapaquinta">Museo quinta de bolívar</a></li>
+   <li><a href="#mapaconte">Museo de arte contemporáneo</a></li>
+          </ul>
+    </div>
+    <div data-role="collapsible">
+        <h3>Iglesia</h3>
+        <ul data-role="listview" data-inset="">
+            <li><a href="#">Iglesia la candelaria</a></li>
+            <li><a href="#">Iglesia del 20 de julio</a></li>
+            <li><a href="#">Iglesia Monserrate </a></li>
+        </ul>
+    </div>
+    <div data-role="collapsible">
+        <h3>Teatro</h3>
+        <ul data-role="listview" data-inset="">
+            <li><a href="#">Teatro de cristóbal colon</a></li>
+            <li><a href="#">Teatro jorge eliécer gaitan</a></li>
+            <li><a href="#">Teatro de bellas artes</a></li>
+        </ul>
+      </div>
+   </div>
+
+            </div>
+            <div data-role="collapsible">
+                <h3>
+                    Atractivo
+                </h3>
+                
+                <div data-role="collapsible-set" data-inset=" ">
+    <div data-role="collapsible">
+        <h3>Parques </h3>
+        <ul data-role="listview" data-inset="">
+      <li><a href="#mapaperio">Parque de los peridista</a></li>
+            <li><a href="#mapanacio">Parque Nacional </a></li>
+            <li><a href="#mapa93">Parque de la 93</a></li>
+        </ul>
+    </div>
+    <div data-role="collapsible">
+        <h3>Parques de Diverciónes</h3>
+        <ul data-role="listview" data-inset="">
+            <li><a href="#">Parque panaca sabana</a></li>
+            <li><a href="#">Parque Salitre magico</a></li>
+            <li><a href="#">parque Mundo aventura</a></li>
+        </ul>
+    </div>
+    <div data-role="collapsible">
+        <h3>Plazoletas</h3>
+        <ul data-role="listview" data-inset=""> 
+            <li><a href="#">Plaza de bolivar</a></li>
+        <li><a href="#">Plazoleta del chorro de quevedo</a></li>
+         <li><a href="#">Plaza de toros de santamariá</a></li>
+           
+        </ul>
+    </div>
+</div>
+
+     </div>
+            <div data-role="collapsible">
+                <h3>
+                    Comercial
+                </h3>
+                
+                
+                <div data-role="collapsible-set" data-inset=" ">
+    <div data-role="collapsible">
+        <h3>Hoteles</h3>
+        <ul data-role="listview" data-inset="">
+        <li><a href="#mapatequendama">Hotel Tequendama</a></li>
+            <li><a href="#mapaamerica">Hotel America</a></li>
+            <li><a href="#mapavirrey">Hotel El virrey </a></li>
+        </ul>
+    </div>
+
+    <div data-role="collapsible">
+        <h3>Centro Comerciales </h3>
+        <ul data-role="listview" data-inset="">
+            <li><a href="#">Centro comercial Santafe</a></li>
+            <li><a href="#">Centro comercial portal 80 </a></li>
+            <li><a href="#">Centro comercial</a></li>
+        </ul>
+    </div>
+    <div data-role="collapsible">
+        <h3>Gastronomia</h3>
+        <ul data-role="listview" data-inset="">
+            <li><a href="#">Parque panaca sabana</a></li>
+            <li><a href="#">Parque Salitre magico</a></li>
+            <li><a href="#">parque Mundo aventura</a></li>
+        </ul>
+    </div>
+    <div data-role="collapsible">
+        <h3>Discotecas</h3>
+        <ul data-role="listview" data-inset=""> 
+            <li><a href="#">Plaza de bolivar</a></li>
+        <li><a href="#">Plazoleta del chorro de quevedo</a></li>
+         <li><a href="#">Plaza de toros de santamariá</a></li>
+           
+        </ul>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+  
+  
+  
+  
+   <div data-theme="a" data-role="footer" data-position="fixed">
+  <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                   <a href="#inicio" data-transition="fade" data-theme="" data-icon="home" class="ui-btn-active ui-state-persist">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                <a href="#mapa" data-transition="fade" data-theme="" data-icon="star">
+                        Mapa
+                    </a>
+                 </li>
+                  <li>
+                    <a href="#ayuda" data-transition="fade" data-theme="" data-icon="info">
+                        Ayuda
+                    </a>
+                </li>
+            </ul>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!--Muse Oro-->     
+<div data-role="page" id="mapamuseoro">
+<div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+            Mapa de Ubicación
+        </h3>
+</div>   
+
+
+<div data-role="content">    
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Aeropuerto+Internacional+El+Dorado+(BOG),+Calle+26,+Bogota+D.C.,+Colombia&amp;daddr=Museo+Del+Oro+-+Calle+16,+Bogot%C3%A1+-+Bogot%C3%A1,+D.C.,+Colombia&amp;hl=es-419&amp;geocode=FUi6RwAd26SU-yEwrxTvVFnqjikHhg9Dtpw_jjEwrxTvVFnqjg%3BFVQ3RgAdrsCV-yHtUaCRYM2PwSnNfA_Gppk_jjHtUaCRYM2PwQ&amp;aq=0&amp;oq=Museo+del+,+Bogot%C3%A1,+Bogot%C3%A1,+D.C.,+Colombia&amp;sll=4.655989,-74.103298&amp;sspn=0.142351,0.247192&amp;mra=ls&amp;ie=UTF8&amp;ll=4.655989,-74.103298&amp;spn=0.097381,0.07341&amp;t=m&amp;output=embed"></iframe>
+</div>
+
+
+
+
+
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+  <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                   <a href="#inicio" data-transition="fade" data-theme="" data-icon="home">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                <a href="#mapa" data-transition="fade" data-theme="" data-icon="star" class="ui-btn-active ui-state-persist">
+                        Mapa
+                    </a>
+                 </li>
+                  <li>
+                    <a href="#inicio" data-transition="fade" data-theme="" data-icon="back">
+                        Devolver
+                    </a>
+                </li>
+            </ul>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Muse Quinta-->
+
+<div data-role="page" id="mapaquinta">
+<div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+            Mapa de Ubicación
+        </h3>
+</div>   
+
+
+<div data-role="content"> 
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Aeropuerto+Internacional+El+Dorado+(BOG),+Calle+26,+Bogota+D.C.,+Colombia&amp;daddr=museo+quinta+de+bolivar,++Bogot%C3%A1+-+Bogot%C3%A1,+D.C.,+Colombia&amp;hl=es-419&amp;geocode=FUi6RwAd26SU-yEwrxTvVFnqjikHhg9Dtpw_jjEwrxTvVFnqjg%3BFYBcRgAdo5eV-yE892XFn42VSilng2GSvJk_jjE892XFn42VSg&amp;aq=&amp;sll=4.675236,-74.098577&amp;sspn=0.071174,0.123596&amp;mra=ls&amp;ie=UTF8&amp;ll=4.65503,-74.112625&amp;spn=0.088201,0.06203&amp;t=m&amp;iwloc=ddw1&amp;output=embed"></iframe>
+</div>
+
+
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+  <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                   <a href="#inicio" data-transition="fade" data-theme="" data-icon="home">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                <a href="#mapa" data-transition="fade" data-theme="" data-icon="star" class="ui-btn-active ui-state-persist">
+                        Mapa
+                    </a>
+                 </li>
+                  <li>
+                    <a href="#inicio" data-transition="fade" data-theme="" data-icon="back">
+                        Devolver
+                    </a>
+                </li>
+            </ul>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- Muse ArCo-->
+
+<div data-role="page" id="mapaconte">
+<div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+            Mapa de Ubicación
+        </h3>
+</div>   
+
+
+<div data-role="content"> 
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Aeropuerto+Internacional+El+Dorado+(BOG),+Calle+26,+Bogota+D.C.,+Colombia&amp;daddr=Museo+De+Arte+Contempor%C3%A1neo,+Minuto+de+Dios,+Bogot%C3%A1+-+Bogot%C3%A1,+D.C.,+Colombia&amp;hl=es-419&amp;geocode=FUi6RwAd26SU-yEwrxTvVFnqjikHhg9Dtpw_jjEwrxTvVFnqjg%3BFX-yRwAdcXeV-yFwpb2zTIyyoymH3tRFMJs_jjFwpb2zTIyyow&amp;aq=1&amp;oq=Museo+de+arte+contempor%C3%A1neo,+Bogot%C3%A1+-+Bogot%C3%A1,+D.C.,+Colombia&amp;sll=4.650665,-74.1035&amp;sspn=0.142352,0.247192&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=4.68668,-74.11562&amp;spn=0.024901,0.05604&amp;output=embed"></iframe>
+</div>
+
+
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+  <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                   <a href="#inicio" data-transition="fade" data-theme="" data-icon="home">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                <a href="#mapa" data-transition="fade" data-theme="" data-icon="star" class="ui-btn-active ui-state-persist">
+                        Mapa
+                    </a>
+                 </li>
+                  <li>
+                    <a href="#inicio" data-transition="fade" data-theme="" data-icon="back">
+                        Devolver
+                    </a>
+                </li>
+            </ul>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--Par perio-->
+
+<div data-role="page" id="mapaperio">
+<div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+            Mapa de Ubicación
+        </h3>
+</div>   
+
+<div data-role="content">
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Aeropuerto+Internacional+El+Dorado+(BOG),+Calle+26,+Bogota+D.C.,+Colombia&amp;daddr=Parque+De+Los+Periodistas+-+Carrera+4,+Bogot%C3%A1+-+Bogot%C3%A1,+D.C.,+Colombia&amp;hl=es-419&amp;geocode=FUi6RwAd26SU-yEwrxTvVFnqjikHhg9Dtpw_jjEwrxTvVFnqjg%3BFbw1RgAdFMqV-yEv_j2ESsP-pCkzYAhzpJk_jjEv_j2ESsP-pA&amp;aq=1&amp;oq=Parque+de+los+Bogot%C3%A1+-+Bogot%C3%A1,+D.C.,+Colombia&amp;sll=4.68668,-74.11562&amp;sspn=0.035586,0.061798&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;iwloc=ddw1&amp;ll=4.65028,-74.10627&amp;spn=0.097701,0.07474&amp;output=embed"></iframe>
+</div>
+
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+  <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                   <a href="#inicio" data-transition="fade" data-theme="" data-icon="home">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                <a href="#mapa" data-transition="fade" data-theme="" data-icon="star" class="ui-btn-active ui-state-persist">
+                        Mapa
+                    </a>
+                 </li>
+                  <li>
+                    <a href="#inicio" data-transition="fade" data-theme="" data-icon="back">
+                        Devolver
+                    </a>
+                </li>
+            </ul>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--Par Naci-->
+
+<div data-role="page" id="mapanacio">
+<div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+            Mapa de Ubicación
+        </h3>
+</div>   
+
+<div data-role="content">
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Aeropuerto+Internacional+El+Dorado+(BOG),+Calle+26,+Bogota+D.C.,+Colombia&amp;daddr=Parque+Nacional,+Bogot%C3%A1+-+Bogot%C3%A1,+D.C.,+Colombia&amp;hl=es-419&amp;geocode=FUi6RwAd26SU-yEwrxTvVFnqjikHhg9Dtpw_jjEwrxTvVFnqjg%3BFcSQRgAdpu6V-yGsmPS6ahavDSl5PK15iZk_jjGsmPS6ahavDQ&amp;aq=1&amp;oq=Parque+Nacional+Bogot%C3%A1+-+Bogot%C3%A1,+D.C.,+Colombia&amp;sll=4.65028,-74.10627&amp;sspn=0.142352,0.247192&amp;mra=ls&amp;ie=UTF8&amp;ll=4.650342,-74.106216&amp;spn=0.074551,0.08525&amp;t=m&amp;output=embed"></iframe>
+</div>
+
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+  <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                   <a href="#inicio" data-transition="fade" data-theme="" data-icon="home">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                <a href="#mapa" data-transition="fade" data-theme="" data-icon="star" class="ui-btn-active ui-state-persist">
+                        Mapa
+                    </a>
+                 </li>
+                  <li>
+                    <a href="#inicio" data-transition="fade" data-theme="" data-icon="back">
+                        Devolver
+                    </a>
+                </li>
+            </ul>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!--parq 93-->
+
+<div data-role="page" id="mapa93">
+<div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+            Mapa de Ubicación
+        </h3>
+</div>   
+
+<div data-role="content">
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Aeropuerto+Internacional+El+Dorado+(BOG),+Calle+26,+Bogota+D.C.,+Colombia&amp;daddr=Parque+De+La+93,+Chic%C3%B3+Norte+II,+Bogot%C3%A1+-+Bogot%C3%A1,+D.C.,+Colombia&amp;hl=es-419&amp;geocode=FUi6RwAd26SU-yEwrxTvVFnqjikHhg9Dtpw_jjEwrxTvVFnqjg%3BFdlcRwAdRB2W-yFYWTRMmycpHCm_ZpEakpo_jjFYWTRMmycpHA&amp;aq=0&amp;oq=Parque+de+la+,+Bogot%C3%A1+-+Bogot%C3%A1,+D.C.,+Colombia&amp;sll=4.664629,-74.08021&amp;sspn=0.071175,0.123596&amp;mra=ls&amp;ie=UTF8&amp;ll=4.664629,-74.08021&amp;spn=0.060601,0.09632&amp;t=m&amp;output=embed"></iframe>
+</div>
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+  <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                   <a href="#inicio" data-transition="fade" data-theme="" data-icon="home">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                <a href="#mapa" data-transition="fade" data-theme="" data-icon="star" class="ui-btn-active ui-state-persist">
+                        Mapa
+                    </a>
+                 </li>
+                  <li>
+                    <a href="#inicio" data-transition="fade" data-theme="" data-icon="back">
+                        Devolver
+                    </a>
+                </li>
+            </ul>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!--Hot Teque-->     
+<div data-role="page" id="mapatequendama">
+<div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+            Mapa de Ubicación
+        </h3>
+</div>       
+
+  
+       
+<div data-role="content">
+<iframe width="500" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Aeropuerto+Internacional+El+Dorado+(BOG),+Calle+26,+Bogota+D.C.,+Colombia&amp;daddr=Hotel+Tequendama,+Tequendama,+Avenida+Carrera+10,+Bogot%C3%A1,+Bogot%C3%A1,+D.C.,+Colombia&amp;hl=es-419&amp;geocode=FUi6RwAd26SU-yEwrxTvVFnqjikHhg9Dtpw_jjEwrxTvVFnqjg%3BFdRjRgAd6sWV-yEMRrYwwKhNMinFzYHym5k_jjEMRrYwwKhNMg&amp;aq=0&amp;oq=hote&amp;sll=4.672927,-74.122181&amp;sspn=0.142347,0.247192&amp;mra=ltm&amp;ie=UTF8&amp;ll=4.672927,-74.122181&amp;spn=0.086198,0.08066&amp;t=m&amp;output=embed"></iframe>
+    </div>
+  
+  
+  
+    
+<div data-theme="a" data-role="footer" data-position="fixed">
+  <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                   <a href="#inicio" data-transition="fade" data-theme="" data-icon="home">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                <a href="#mapa" data-transition="fade" data-theme="" data-icon="star" class="ui-btn-active ui-state-persist">
+                        Mapa
+                    </a>
+                 </li>
+                  <li>
+                    <a href="#inicio" data-transition="fade" data-theme="" data-icon="back">
+                        Devolver
+                    </a>
+                </li>
+            </ul>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--Hot Ame-->     
+<div data-role="page" id="mapaamerica">
+<div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+            Mapa de Ubicación
+        </h3>
+</div>       
+
+  
+       
+<div data-role="content">    
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Aeropuerto+Internacional+El+Dorado+(BOG),+Calle+26,+Bogota+D.C.,+Colombia&amp;daddr=Hotel+America,+Bogot%C3%A1+D.C.+-+Bogot%C3%A1,+Colombia&amp;hl=es-419&amp;geocode=FUi6RwAd26SU-yEwrxTvVFnqjikHhg9Dtpw_jjEwrxTvVFnqjg%3BFR73RgAdZ_CV-yGOE0YfANfAqCm9iawUl5o_jjGOE0YfANfAqA&amp;aq=1&amp;oq=Hotel+americaBogot%C3%A1+-+Bogot%C3%A1,+D.C.,+Colombia&amp;sll=4.668821,-74.095488&amp;sspn=0.071174,0.123596&amp;mra=ls&amp;ie=UTF8&amp;ll=4.668821,-74.095488&amp;spn=0.060601,0.084015&amp;t=m&amp;output=embed"></iframe>
+</div>
+
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+  <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                   <a href="#inicio" data-transition="fade" data-theme="" data-icon="home">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                <a href="#mapa" data-transition="fade" data-theme="" data-icon="star" class="ui-btn-active ui-state-persist">
+                        Mapa
+                    </a>
+                 </li>
+                  <li>
+                    <a href="#inicio" data-transition="fade" data-theme="" data-icon="back">
+                        Devolver
+                    </a>
+                </li>
+            </ul>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--Hot vir-->     
+<div data-role="page" id="mapavirrey">
+<div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+            Mapa de Ubicación
+        </h3>
+</div>       
+
+  
+       
+<div data-role="content"> 
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Aeropuerto+Internacional+El+Dorado+(BOG),+Calle+26,+Bogota+D.C.,+Colombia&amp;daddr=Hotel+B3+Virrey,+Chico,+Bogot%C3%A1+-+Bogot%C3%A1,+D.C.,+Colombia&amp;hl=es-419&amp;geocode=FUi6RwAd26SU-yEwrxTvVFnqjikHhg9Dtpw_jjEwrxTvVFnqjg%3BFXtQRwAdtAiW-yGcSnNVTxVFECnxGTXVjJo_jjGcSnNVTxVFEA&amp;aq=0&amp;oq=Hotel+el+virre,+Bogot%C3%A1+D.C.+-+Bogot%C3%A1,+Colombia&amp;sll=4.666254,-74.102011&amp;sspn=0.071174,0.123596&amp;mra=ls&amp;ie=UTF8&amp;ll=4.666254,-74.102011&amp;spn=0.047751,0.090152&amp;t=m&amp;output=embed"></iframe>
+</div>
+
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+  <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                   <a href="#inicio" data-transition="fade" data-theme="" data-icon="home">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                <a href="#mapa" data-transition="fade" data-theme="" data-icon="star" class="ui-btn-active ui-state-persist">
+                        Mapa
+                    </a>
+                 </li>
+                  <li>
+                    <a href="#inicio" data-transition="fade" data-theme="" data-icon="back">
+                        Devolver
+                    </a>
+                </li>
+            </ul>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+
+  
+     
+<!--Mapa aplicacion-->
+
+<div data-role="page" id="mapa">
+<div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+            Mapa de Ubicación
+        </h3>
+</div>       
+
+<div data-role="content">
+<iframe width="500" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Aeropuerto+Internacional+El+Dorado+-+Calle+26,+Bogot%C3%A1,+Colombia&amp;daddr=&amp;hl=es-419&amp;geocode=&amp;aq=0&amp;oq=aerBogot%C3%A1,+Bogot%C3%A1,+Colombia&amp;sll=4.600723,-74.010773&amp;sspn=0.284724,0.494385&amp;mra=ls&amp;ie=UTF8&amp;ll=4.600723,-74.010773&amp;spn=0.284724,0.494385&amp;t=m&amp;output=embed"></iframe>
+ </div>
+
+
+
+
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+  <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                   <a href="#inicio" data-transition="fade" data-theme="" data-icon="home">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                <a href="#mapa" data-transition="fade" data-theme="" data-icon="star" class="ui-btn-active ui-state-persist">
+                        Mapa
+                    </a>
+                 </li>
+                  <li>
+                    <a href="#inicio" data-transition="fade" data-theme="" data-icon="back">
+                        Devolver
+                    </a>
+                </li>
+            </ul>
+             </div>
+        </div>
+    </div>
+
+
+
+
+
+<!--Ayuda-->
+<div data-role="page" id="ayuda">
+    <div data-theme="a" data-role="header">
+        <h3>
+            Conozcamos Bogotá D.C
+        </h3>
+    </div>
+    
+    
+    <div data-role="content">
+        
+        <div id="Turismo" data-role="collapsible-set" data-theme="a" data-content-theme="">
+           
+            <div data-role="collapsible">
+                <h3>
+           ¿Es la primera vez que utiliza la Conozcamos Bogotá D.C?
+                </h3>
+                
+   <div data-role="collapsible-set" data-inset="">
+        <ul data-role="listview" data-inset="">
+            <li><a href="#">Preguntas frecuentes</a></li>
+           <li><a href="#">Personalida de la aplicacion</a></li>
+          </ul>
+    </div>
+ </div>  
+
+           
+            <div data-role="collapsible">
+                <h3>
+                  Conozcamos Bogotá para Dispositivos
+                </h3>
+                
+      <div data-role="collapsible-set" data-inset="">
+           <ul data-role="listview" data-inset="">
+            <li><a href="#">Android</a></li>
+            <li><a href="#">Tablet</a></li>
+            <li><a href="#">iAPad</a></li>       
+            </ul>
+
+    </div>
+   </div>
+  
+   
+            <div data-role="collapsible">
+                <h3>
+                   Aplicacion e Seguridad
+                </h3>
+           
+                
+                
+        <div data-role="collapsible-set" data-inset=" ">
+           <ul data-role="listview" data-inset="">
+            <li><a href="#">Politica privada</a></li>
+       <li><a href="#">Configuración de la aplicación</a></li>
+            <li><a href="#">Acerca de la aplicación</a></li>
+
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+ <div data-theme="a" data-role="footer" data-position="fixed">
+  <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                   <a href="#inicio" data-transition="fade" data-theme="" data-icon="home">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                <a href="#mapa" data-transition="fade" data-theme="" data-icon="star">
+                        Mapa
+                    </a>
+                 </li>
+                  <li>
+                    <a href="#ayuda" data-transition="fade" data-theme="" data-icon="info" class="ui-btn-active ui-state-persist">
+                        Ayuda
+                    </a>
+                </li>
+            </ul>
+             </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
