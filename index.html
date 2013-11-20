@@ -9,8 +9,10 @@
 <link href='http://fonts.googleapis.com/css?family=Archivo+Narrow:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href= "BOGOTA.min.css" />
 <link rel="stylesheet" href="jquery.mobile.structure-1.3.2.min.css" />
+<link rel="stylesheet" href="estilos.css" />
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+<script src="swipe.js"></script>
 
 
 
@@ -55,9 +57,9 @@
     <div data-role="collapsible">
         <h3>Teatro</h3>
         <ul data-role="listview" data-inset="">
-            <li><a href="#">Teatro de cristóbal colon</a></li>
-            <li><a href="#">Teatro jorge eliécer gaitan</a></li>
-            <li><a href="#">Teatro de bellas artes</a></li>
+<li><a href="#pagteacolon">Teatro de cristóbal colon</a></li>
+      <li><a href="#">Teatro jorge eliécer gaitan</a></li>
+       <li><a href="#">Teatro de bellas artes</a></li>
         </ul>
       </div>
    </div>
@@ -68,13 +70,13 @@
                     Atractivo
                 </h3>
                 
-                <div data-role="collapsible-set" data-inset=" ">
+        <div data-role="collapsible-set" data-inset=" ">
     <div data-role="collapsible">
         <h3>Parques </h3>
         <ul data-role="listview" data-inset="">
-      <li><a href="#mapaperio">Parque de los peridista</a></li>
-            <li><a href="#mapanacio">Parque Nacional </a></li>
-            <li><a href="#mapa93">Parque de la 93</a></li>
+<li><a href="#pagpaqperio">Parque de los peridista</a></li>
+            <li><a href="#">Parque Nacional </a></li>
+            <li><a href="#">Parque de la 93</a></li>
         </ul>
     </div>
     <div data-role="collapsible">
@@ -89,8 +91,8 @@
         <h3>Plazoletas</h3>
         <ul data-role="listview" data-inset=""> 
             <li><a href="#">Plaza de bolivar</a></li>
-        <li><a href="#">Plazoleta del chorro de quevedo</a></li>
-         <li><a href="#">Plaza de toros de santamariá</a></li>
+   <li><a href="#">Plazoleta del chorro de quevedo</a></li>
+     <li><a href="#">Plaza de toros de santamariá</a></li>
            
         </ul>
     </div>
@@ -107,17 +109,17 @@
     <div data-role="collapsible">
         <h3>Hoteles</h3>
         <ul data-role="listview" data-inset="">
-        <li><a href="#mapatequendama">Hotel Tequendama</a></li>
-            <li><a href="#mapaamerica">Hotel America</a></li>
-            <li><a href="#mapavirrey">Hotel El virrey </a></li>
+        <li><a href="#">Hotel Tequendama</a></li>
+            <li><a href="#">Hotel America</a></li>
+            <li><a href="#">Hotel El virrey </a></li>
         </ul>
     </div>
 
     <div data-role="collapsible">
         <h3>Centro Comerciales </h3>
         <ul data-role="listview" data-inset="">
-            <li><a href="#">Centro comercial Santafe</a></li>
-            <li><a href="#">Centro comercial portal 80 </a></li>
+        <li><a href="#">Centro comercial Santafe</a></li>
+      <li><a href="#">Centro comercial portal 80 </a></li>
             <li><a href="#">Centro comercial</a></li>
         </ul>
     </div>
@@ -223,7 +225,7 @@
 
 
 
-                                      <!--Iformuseodeloro-->
+                         <!--Informuseodeloro-->
 <div data-role="page" id="informuseoro">
 <div data-theme="a" data-role="header" data-position="fixed">
         <h3>
@@ -243,7 +245,7 @@
 
 <div data-role="content"> 
    
-   <img src= "imgapli/Mu.oro.svg" width="488" height="476" > 
+ <img src= "imgapli/Mu.oro.svg" width="488" height="476" > 
     
            </div>
            
@@ -325,7 +327,7 @@
 
 
 
-                    <!--IforIg.l-->
+                    <!--InforIg.l-->
 <div data-role="page" id="inforiglesia">
 <div data-theme="a" data-role="header" data-position="fixed">
         <h3>
@@ -345,7 +347,7 @@
 
 <div data-role="content"> 
    
-   <img src= "imgapli/Ig.can.svg" width="488" height="476" > 
+   <img src= "imgapli/Igl.can.svg" width="488" height="476" > 
     
            </div>
            
@@ -379,12 +381,258 @@
 
 
 
+        <!--Pag Teatro C.colon-->
+<div data-role="page" id="pagteacolon">
+    <div data-theme="a" data-role="header">
+        <h3>
+            Teatro cristobal colon
+        </h3>
+    </div>
+
+<div data-role="navbar">
+    <ul>
+      <li><a href="#"class="ui-btn-active">Mapa</a></li>
+        <li><a href="#inforteatro">Información</a></li>
+        <li><a href="#">Imagenes</a></li>
+    </ul>
+</div>
+
+<div data-role="content"> 
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Aeropuerto+Internacional+El+Dorado+(BOG),+Calle+26,+Bogot%C3%A1&amp;daddr=Teatro+Col%C3%B3n&amp;hl=es-419&amp;geocode=FUi6RwAd26SU-yEwrxTvVFnqjikHhg9Dtpw_jjEwrxTvVFnqjg%3BFZYjRgAd8baV-yHwrGdgHrMMcSmH63B8qJk_jjHwrGdgHrMMcQ&amp;aq=0&amp;oq=aero&amp;sll=4.59663,-74.074383&amp;sspn=0.008267,0.01545&amp;gl=co&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=4.64589,-74.1089&amp;spn=0.106481,0.06948&amp;output=embed"></iframe>
+
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+  <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                   <a href="#inicio" data-transition="fade" data-theme="" data-icon="home">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                <a href="#mapa" data-transition="fade" data-theme="" data-icon="star" >
+                        Mapa
+                    </a>
+                 </li>
+                  <li>
+                    <a href="#inicio" data-transition="fade" data-theme="" data-icon="back" class="ui-btn-active ui-state-persist">
+                        Devolver
+                    </a>
+                </li>
+            </ul>
+             </div>
+        </div>
+    </div>
+</div>
 
 
 
+<!--Inf-->
+<div data-role="page" id="inforteatro">
+<div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+            Información
+        </h3>
+</div>
 
 
+<div data-role="navbar">
+    <ul>
+        <li><a href="#">Mapa</a></li>
+ <li><a href="#" class="ui-btn-active">Información</a></li>
+        <li><a href="#imagtea">Imagenes</a></li>
+    </ul>
+</div>
+
+
+<div data-role="content"> 
+   
+  <img src= "imgapli/Tea.cc.svg" width="488" height="476" > 
+    
+           </div>
+           
+
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+  <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                   <a href="#inicio" data-transition="fade" data-theme="" data-icon="home">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                <a href="#mapa" data-transition="fade" data-theme="" data-icon="star" >
+                        Mapa
+                    </a>
+                 </li>
+                  <li>
+                    <a href="#" data-transition="fade" data-theme="" data-icon="back" class="ui-btn-active ui-state-persist">
+                        Devolver
+                    </a>
+                </li>
+            </ul>
+             </div>
+        </div>
+    </div>
+ 
+
+<!--imagteatro-->
+
+<div data-role="page" id="imagtea">
+<div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+            Imagenes
+        </h3>
+</div>
+
+
+<div data-role="navbar">
+    <ul>
+        <li><a href="#">Mapa</a></li>
+        <li><a href="#">Información</a></li>
+        <li><a href="#" class="ui-btn-active">Imagenes</a></li>
+    </ul>
+</div>
+
+
+<div data-role="content"> 
+
+
+
+<div id='slider' class='swipe'>
+  <div class='swipe-wrap'>
+    <div><img src= "imgapli/fototcc1.jpg" width="488" height="476" ></div>
+    <div><img src= "imgapli/fototcc2.jpg" width="488" height="476" ></div>
+    <div><img src= "imgapli/fototcc3.jpg" width="488" height="476" ></div>
+    <div><img src= "imgapli/fototcc4.jpg" width="488" height="476" ></div>
+    <div><img src= "imgapli/fototcc5.jpg" width="488" height="476" ></div>
+  </div>
+</div>
+
+
+           </div>
+
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+  <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                   <a href="#inicio" data-transition="fade" data-theme="" data-icon="home">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                <a href="#mapa" data-transition="fade" data-theme="" data-icon="star" >
+                        Mapa
+                    </a>
+                 </li>
+                  <li>
+                    <a href="#pagteacolon" data-transition="fade" data-theme="" data-icon="back" class="ui-btn-active ui-state-persist">
+                        Devolver
+                    </a>
+                </li>
+            </ul>
+             </div>
+        </div>
+    </div
   
+  
+    ><!--Pag ParquePeriodistas-->
+    
+<div data-role="page" id="pagpaqperio">
+<div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+            Parque los periodistas
+        </h3>
+</div> 
+
+<div data-role="navbar">
+    <ul>
+      <li><a href="#"class="ui-btn-active">Mapa</a></li>
+        <li><a href="#">Información</a></li>
+        <li><a href="#">Imagenes</a></li>
+    </ul>
+</div>      
+
+<div data-role="content">
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Aeropuerto+Internacional+El+Dorado+(BOG),+Calle+26,+Bogot%C3%A1&amp;daddr=Parque+de+los+Periodistas+-+Carrera+4,+Bogot%C3%A1&amp;hl=es-419&amp;geocode=FUi6RwAd26SU-yEwrxTvVFnqjikHhg9Dtpw_jjEwrxTvVFnqjg%3BFbw1RgAdFMqV-yEv_j2ESsP-pCkzYAhzpJk_jjEv_j2ESsP-pA&amp;aq=1&amp;oq=parque+los+&amp;sll=4.64589,-74.1089&amp;sspn=0.132258,0.247192&amp;gl=co&amp;mra=ls&amp;ie=UTF8&amp;ll=4.645894,-74.108963&amp;spn=0.097701,0.07474&amp;t=m&amp;iwloc=ddw1&amp;output=embed"></iframe>
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+  <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                   <a href="#inicio" data-transition="fade" data-theme="" data-icon="home">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                <a href="#mapa" data-transition="fade" data-theme="" data-icon="star" >
+                        Mapa
+                    </a>
+                 </li>
+                  <li>
+                    <a href="#inicio" data-transition="fade" data-theme="" data-icon="back" class="ui-btn-active ui-state-persist">
+                        Devolver
+                    </a>
+                </li>
+            </ul>
+             </div>
+        </div>
+    </div>
+</div>
+  
+ <!--Inf-->
+<div data-role="page" id="inforpaqperi">
+<div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+            Información
+        </h3>
+</div>
+
+
+<div data-role="navbar">
+    <ul>
+        <li><a href="#">Mapa</a></li>
+ <li><a href="#" class="ui-btn-active">Información</a></li>
+        <li><a href="#">Imagenes</a></li>
+    </ul>
+</div>
+
+
+<div data-role="content"> 
+   
+  <img src= "imgapli/" width="488" height="476" > 
+    
+           </div>
+           
+
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+  <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                   <a href="#inicio" data-transition="fade" data-theme="" data-icon="home">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                <a href="#mapa" data-transition="fade" data-theme="" data-icon="star" >
+                        Mapa
+                    </a>
+                 </li>
+                  <li>
+                    <a href="#" data-transition="fade" data-theme="" data-icon="back" class="ui-btn-active ui-state-persist">
+                        Devolver
+                    </a>
+                </li>
+            </ul>
+             </div>
+        </div>
+    </div>
+ 
+
+
      
 <!--Mapa aplicacion-->
 
@@ -425,7 +673,6 @@
              </div>
         </div>
     </div>
-
 
 
 
@@ -517,6 +764,13 @@
         </div>
     </div>
 </div>
-
+<script type="text/javascript" language="javascript">
+$('#imagtea').one('pageshow', function() {
+	window.mySwipe = new Swipe(document.getElementById('slider'), {
+	  auto: 3000,	
+	  continuous: true
+	});
+});
+</script>
 </body>
 </html>
