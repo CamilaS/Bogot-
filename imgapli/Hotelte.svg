@@ -16,11 +16,11 @@
 <metadata>
 	<sfw  xmlns="&ns_sfw;">
 		<slices></slices>
-		<sliceSourceBounds  width="356.744" height="338.082" x="39" y="-360.082" bottomLeftOrigin="true"></sliceSourceBounds>
+		<sliceSourceBounds  width="356.744" height="338.082" y="-360.082" x="39" bottomLeftOrigin="true"></sliceSourceBounds>
 		<optimizationSettings>
 			<targetSettings  fileFormat="JPEGFormat" targetSettingsID="0">
 				
-					<JPEGFormat  quality="100" progressive="false" optimized="true" matteColor="#FFFFFF" blurAmount="0" embedICCProfile="false" noMatteColor="true">
+					<JPEGFormat  quality="100" noMatteColor="true" embedICCProfile="false" blurAmount="0" matteColor="#FFFFFF" optimized="true" progressive="false">
 					</JPEGFormat>
 			</targetSettings>
 		</optimizationSettings>
@@ -1732,7 +1732,7 @@
 						c-0.72,0.421-2.799,1.565-5.809,2.65c-0.868,0.314-1.768,0.605-2.7,0.87c-0.004,0.001-0.008,0.002-0.011,0.003
 						c-0.109,0.031-0.218,0.062-0.328,0.092c-0.059,0.016-0.118,0.032-0.177,0.048c-0.05,0.014-0.1,0.027-0.15,0.04
 						c-0.109,0.029-0.219,0.059-0.33,0.087c-0.024,0.006-0.049,0.012-0.073,0.019c-0.12,0.03-0.241,0.061-0.363,0.091
-						c-0.007,0.002-0.015,0.003-0.022,0.005c-0.001,0-0.001,0.001-0.002,0.001c-0.001,0-0.003,0.001-0.005,0.001
+						c-0.007,0.002-0.015,0.003-0.022,0.005c0,0-0.001,0.001-0.002,0.001c-0.001,0-0.003,0.001-0.005,0.001
 						c-1.341,0.327-2.467,0.532-3.376,0.671c-0.597,0.092-1.175,0.167-1.731,0.228c-0.537,0.062-1.124,0.109-1.695,0.145
 						c-0.298,0.019-0.589,0.034-0.872,0.045c-0.897,0.039-1.652,0.047-1.955,0.035c-0.051-0.003-0.103-0.004-0.153-0.005
 						c-0.567-0.007-1.088-0.025-1.561-0.046c-0.452-0.021-1.107-0.063-1.919-0.146c-1.151-0.11-2.213-0.285-2.925-0.403
@@ -2363,11 +2363,11 @@
 <line fill="none" stroke="#000000" stroke-miterlimit="10" x1="149.664" y1="93.456" x2="175.168" y2="78.523"/>
 <path fill="#BC0000" d="M222.738,28.59c0,6.627-5.373,12-12,12h-191c-6.627,0-12-5.373-12-12v-8c0-6.627,5.373-12,12-12h191
 	c6.627,0,12,5.373,12,12V28.59z"/>
-<text transform="matrix(1 0 0 1 29.9131 19.4639)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Bold'" font-size="12">Dirección:</tspan><tspan x="53.723" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12">   </tspan><tspan x="0" y="14.4" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12">     Cl. 11 - cra. 4 esquina</tspan></text>
+<text transform="matrix(1 0 0 1 29.9131 19.4639)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Bold'" font-size="12">Dirección:</tspan><tspan x="53.723" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12">   </tspan><tspan x="0" y="14.4" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12">       Avenida carrera 10 No. 26 - 21.</tspan></text>
 <path fill="#BC0000" d="M289.738,70.59c0,6.627-5.373,12-12,12h-191c-6.627,0-12-5.373-12-12v-8c0-6.627,5.373-12,12-12h191
 	c6.627,0,12,5.373,12,12V70.59z"/>
-<text transform="matrix(1 0 0 1 94.1812 63.1069)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Bold'" font-size="12">Telefonos: </tspan><tspan x="0" y="14.4" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12">           571 3420924 Ext. 107</tspan></text>
+<text transform="matrix(1 0 0 1 94.1812 63.1069)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Bold'" font-size="12">Telefonos: </tspan><tspan x="0" y="14.4" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="12">        (57) 1 -382 0300</tspan></text>
 <path fill="#E2C705" d="M222.738,199.495c0,5.632-3.388,12.096-9.969,12.096H19.153c-6.581,0-13.415-6.464-13.415-12.096v-99.439
 	c0-5.633,6.834-8.465,13.415-8.465H212.77c6.581,0,9.969,2.833,9.969,8.465V199.495z"/>
-<text transform="matrix(1 0 0 1 92.7783 109.4761)"><tspan x="0" y="0" font-family="'MyriadPro-Bold'" font-size="12">Horario:</tspan><tspan x="43.979" y="0" font-family="'MyriadPro-Regular'" font-size="12"> </tspan><tspan x="-87.4" y="14.4" font-family="'MyriadPro-Regular'" font-size="12">   Lunes a domingo de 6:30 a.m. a 12:00 p.m. </tspan><tspan x="-36.407" y="28.8" font-family="'MyriadPro-Regular'" font-size="12">de 2:00 p.m. a 6:30 p.m. </tspan><tspan x="-38.219" y="43.2" font-family="'MyriadPro-Regular'" font-size="12">Misa: Lunes a sábado de </tspan><tspan x="-28.157" y="57.6" font-family="'MyriadPro-Regular'" font-size="12">7:00 a.m. y 6:00 p.m. </tspan><tspan x="-37.025" y="72" font-family="'MyriadPro-Regular'" font-size="12"> domingos de 9:00 a.m., </tspan><tspan x="-29.963" y="86.4" font-family="'MyriadPro-Regular'" font-size="12">11:00 a.m. y 6:00 p.m.</tspan></text>
+<text transform="matrix(1 0 0 1 92.7783 109.4761)"><tspan x="0" y="0" font-family="'MyriadPro-Bold'" font-size="12">Horario:</tspan><tspan x="43.979" y="0" font-family="'MyriadPro-Regular'" font-size="12"> </tspan><tspan x="-0.984" y="14.4" font-family="'MyriadPro-Regular'" font-size="12"> Reservas:</tspan><tspan x="-45.143" y="28.8" font-family="'MyriadPro-Regular'" font-size="12">Lunes a Viernes 7:00 - 19:00</tspan><tspan x="-28.877" y="43.2" font-family="'MyriadPro-Regular'" font-size="12">Sábados: 8:00 - 13:00 </tspan><tspan x="6.456" y="72" stroke="#000000" stroke-miterlimit="10" font-family="'MyriadPro-Regular'" font-size="12">Costos </tspan><tspan x="-37.505" y="86.4" font-family="'MyriadPro-Regular'" font-size="12">Depende de su reservas </tspan></text>
 </svg>
