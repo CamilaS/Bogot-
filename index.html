@@ -640,8 +640,8 @@
 
 
 
-<div id='slider' class='swipe'>
-  <div class='swipe-wrap'>
+ <div id='slider' class='swipe'>
+      <div class='swipe-wrap'>
  
  <div><img src= "imgapli/fototcc1.jpg"  width="400" height="400" ></div>
    
@@ -651,7 +651,7 @@
     
  <div><img src= "imgapli/fototcc4.jpg"  width="400" height="400"></div>
     
- <div><img src= "imgapli/fototcc5.jpg"  width="400" height="400" ></div>
+ <div><img src= "imgapli/fototcc5.jpg"  width="400" height="400"></div>
   
   
   </div>
@@ -1984,11 +1984,16 @@
     </div>
 </div>
 <script type="text/javascript" language="javascript">
-$('#imagtea').one('pageshow', function() {
-	window.mySwipe = new Swipe(document.getElementById('slider'), {
-	  auto: 3000,	
-	  continuous: true
-	});
+/*
+$('#imagtea').on('pageshow', function() {
+	window.mySwipe = new Swipe(document.getElementById('slider'));
+});
+*/
+$('#imagtea').on('pageshow',function(){
+  window.slider = Swipe(document.getElementById('slider'),{
+	auto: 3000,
+  	continuous: true
+  });
 });
 </script>
 </body>
